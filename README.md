@@ -33,7 +33,10 @@ Bu projede aşağıdaki teknolojiler kullanılmıştır:
 
 Bu projenin amacı kullanıcıların web sitesinin içeriğini kolayca yönetmelerini sağlamaktır. Ayrıca, web sitesinin her verisi dinamik bir şekilde listelenir, bu da kullanıcıların içeriklerini anlık olarak güncellemelerine ve yeni içerik eklemelerine olanak sağlar. Bu sayede kullanıcı deneyimini sürekli olarak iyileştirme ve güncel tutma konusunda maksimum esneklik sağlar.
 
+
+
 <h3>Kurulum</h3>
+
 
 1- Projeyi klonlayın.
 
