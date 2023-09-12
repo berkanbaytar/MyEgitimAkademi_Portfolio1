@@ -42,7 +42,7 @@ Bu projenin amacı kullanıcıların web sitesinin içeriğini kolayca yönetmel
 
 2- SQL Server veritabanı oluşturun ve bağlantı ayarlarını appsettings.json dosyasında güncelleyin.
 
-3- Proje klasöründe terminali açın ve aşağıdaki komutları çalıştırın:
+3- Proje klasöründe terminali açın ve aşağıdaki komutları çalıştırın.
 
 
 
