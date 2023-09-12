@@ -13,3 +13,5 @@ Bu projede aşağıdaki teknolojiler kullanılmıştır:
 <h3>Entity Framework</h3>
 
 <h3>SQL Server</h3>  
+
+<h1>Ekran Görüntüleri</h1>
