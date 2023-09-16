@@ -1,0 +1,25 @@
+﻿@{ ViewBag.Title = "Addproject";
+                Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
+
+<h2>Yeni Proje Ekleme Sayfası</h2>
+
+<form method="post">
+
+
+    <label>Proje Adını Giriniz</label>
+    <input type="text" name="Title" class="form-control" />
+    <br />
+    <label>Proje Açıklamasını Giriniz</label>
+    <input type="text" name="Description" class="form-control" />
+    <br />
+    <label>Proje Kategorisini Giriniz</label>
+    <input type="text" name="ProjectCategory" class="form-control" />
+    <br />
+    <label>Proje Süresini Giriniz</label>
+    <input type="text" name="CompleteDay" class="form-control" />
+    <br />
+    <label>Proje Ücretini Giriniz</label>
+    <input type="text" name="Price" class="form-control" />
+    <br />
+    <button class="btn btn-info">Projeyi Kaydet</button>
+</form>

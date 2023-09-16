@@ -10,10 +10,50 @@ namespace MyEgitimAkademi_Portfolio1.Controllers
     public class ProjectController : Controller
     {
         MyPortfolioDb1Entities db = new MyPortfolioDb1Entities();
+        [Authorize]
         public ActionResult Index()
         {
             var values = db.Project.ToList();
             return View(values);
         }
+            public ActionResult AddProject()
+            {
+                return View();
+            }
+            [HttpPost]
+            public ActionResult AddProject(Project project)
+            {
+                db.Project.Add(project);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            public ActionResult DeleteProject(int id)
+            {
+                var value = db.Project.Find(id);
+                db.Project.Remove(value);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+
+        }
+            [HttpGet]
+
+            public ActionResult UpdateProject(int id)
+            {
+                var value = db.Project.Find(id);
+                return View(value);
+            }
+            [HttpPost]
+
+            public ActionResult UpdateProject(Project project)
+            {
+                var value = db.Project.Find(project.ProjectID);
+                value.Title = project.Title;
+                value.Description = project.Description;
+                value.CompleteDay = project.CompleteDay;
+                value.Price = project.Price;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+        }
     }
-}

@@ -566,6 +566,9 @@
     <Content Include="Templates\login-form-20\scss\bootstrap\_variables.scss" />
     <Content Include="Templates\login-form-20\scss\style.scss" />
     <Content Include="Views\Default\PartialClient.cshtml" />
+    <Content Include="Views\Service\UpdateService.cshtml" />
+    <Content Include="Views\Project\AddProject.cshtml" />
+    <Content Include="Views\Project\UpdateProject.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
