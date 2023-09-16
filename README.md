@@ -24,7 +24,7 @@ Bu projede aşağıdaki teknolojiler kullanılmıştır:
 
 ![5](https://github.com/berkanbaytar/MyEgitimAkademi_Portfolio1/assets/143795341/64cccede-43f7-4e37-8474-6a346a82d81d)
 
-![6](https://github.com/berkanbaytar/MyEgitimAkademi_Portfolio1/assets/143795341/34e707dc-ca7f-4685-ac7d-68dff7c5d8e9)
+![6](https://github.com/berkanbaytar/MyEgitimAkademi_Portfolio1/assets/143795341/bbbf93ff-2eb3-4cc1-9eae-a560d73216f4)
 
 ![7](https://github.com/berkanbaytar/MyEgitimAkademi_Portfolio1/assets/143795341/583fafde-8e79-4268-9a76-9b76e9994f3e)
 
