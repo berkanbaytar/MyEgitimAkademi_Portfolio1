@@ -31,18 +31,17 @@ Bu projede aşağıdaki teknolojiler kullanılmıştır:
 
 ![8](https://github.com/berkanbaytar/MyEgitimAkademi_Portfolio1/assets/143795341/8dad9e36-b3fd-4ced-b722-79bcc7af58d2)
 
+<h3>Projenin Amacı</h3>
+
 Bu projenin amacı kullanıcıların web sitesinin içeriğini kolayca yönetmelerini sağlamaktır. Ayrıca, web sitesinin her verisi dinamik bir şekilde listelenir, bu da kullanıcıların içeriklerini anlık olarak güncellemelerine ve yeni içerik eklemelerine olanak sağlar. Bu sayede kullanıcı deneyimini sürekli olarak iyileştirme ve güncel tutma konusunda maksimum esneklik sağlar.
 
+<h3>Kurulum ve Kullanma</h3>
 
+ Öncelikle projeyi klonlayın.
 
-<h3>Kurulum</h3>
+git clone https://github.com/berkanbaytar/MyEgitimAkademi_Portfolio1.git Mssql deki connection string' inizi değiştirerek projeyi ayağa kaldırabilirsiniz.
 
-
-1- Projeyi klonlayın.
-
-2- SQL Server veritabanı oluşturun ve bağlantı ayarlarını appsettings.json dosyasında güncelleyin.
-
-3- Proje klasöründe terminali açın ve aşağıdaki komutları çalıştırın.
+Kayıt olma sayfasına gitmek için kendi Local adresinizin sonuna /Register ekleyerek index' ine gitmeniz gerekmektedir. Kayıt oluşturduktan sonra login sayfasına yönlendirileceksiniz ve login yaparak admin panelini kullanmaya başlayabilirsiniz.
 
 
 
